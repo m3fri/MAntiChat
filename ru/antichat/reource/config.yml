@@ -1,0 +1,5 @@
+blockedWords:
+  - "лох"
+  - "тупой"
+blockedWordsMessage: "§fИгрок §e{player} §fнаписал запрещенное слово: §b{word}. §fСообщение не было отправлено."
+blockedDomainsMessage: "§fИгрок §e{player} §fнаписал сообщение, в котором содержится доменное имя: §b{domain}. §fСообщение не было отправлено."
