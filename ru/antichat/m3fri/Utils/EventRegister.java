@@ -20,7 +20,9 @@ public class EventRegister {
 	private final cn.nukkit.plugin.Plugin plugin;
 
 	public EventRegister(ru.antichat.m3fri.Loader plugin) {
+
 		this.plugin = plugin;
+
 	}
 
 	public void registerEvents() {

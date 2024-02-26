@@ -20,9 +20,11 @@ public class Loader extends cn.nukkit.plugin.PluginBase implements cn.nukkit.eve
 
 	@Override
 	public void onEnable() {
+
 		this.getServer().getPluginManager().registerEvents(this, this);
 		if (!this.getDataFolder().exists()) {
 			this.getDataFolder().mkdir();
+
 		}
 
 		java.io.File configFile = new java.io.File(this.getDataFolder(), "config.yml");
